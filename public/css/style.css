@@ -1,0 +1,39 @@
+	#shoppingCart {
+		width : 300px;
+		margin-top : 20px;
+		left : -230px;
+		padding : 20px;
+		background : #eeeeee;
+	}
+	
+	#shoppingCart .summary {
+		color : #c14d00;
+		text-transform : uppercase;
+		font-size : 2rem;
+	}
+	
+	#shoppingCart div {
+		color : #808080;
+	}
+	
+	#shoppingCart .no-bg {
+		height : 0px;
+	}
+	
+	.arrow {
+		width : 30px;
+		height : 30px;
+		position : relative;
+		top : -35px;
+		left : 220px;
+		background : #eeeeee;
+		-ms-transform: rotate(45deg);
+ 		-webkit-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	
+	#shoppingCart div[class^='row'] {
+		border-bottom : 2px #efefef solid;
+		margin-bottom : 10px;
+		padding-bottom : 10px;
+	}
