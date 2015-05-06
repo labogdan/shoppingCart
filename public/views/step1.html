@@ -3,7 +3,11 @@
 </div>
 
 <label for="firstName">First Name</label>
-<input id="firstName" type="text" / >
+<input id="firstName" type="text" ng-model="formData.firstName" / >
 
 <label for="lastName">Last Name</label>
-<input id="lastName" type="text" / >
+<input id="lastName" type="text"  ng-model="formData.lastName" / >
+
+<a ui-sref="form.address" class="btn btn-block btn-info">
+    Next Section <span class="glyphicon glyphicon-circle-arrow-right"></span>
+</a>

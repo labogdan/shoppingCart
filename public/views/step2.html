@@ -3,7 +3,11 @@
 </div>
 
 <label for="address">Address</label>
-<input id="address" type="text" / >
+<input id="address" type="text" ng-model="formData.address" / >
 
 <label for="zip">Zip Code</label>
-<input id="zip" type="text" / >
+<input id="zip" type="text" ng-model="formData.zipCode" / >
+
+<a ui-sref="form.member" class="btn btn-block btn-info">
+    Next Section <span class="glyphicon glyphicon-circle-arrow-right"></span>
+</a>
