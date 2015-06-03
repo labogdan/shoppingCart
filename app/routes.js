@@ -66,6 +66,18 @@ var ShoppingCart = require('./models/shoppingCart');
     		
         });
 
+    	app.get('/tdd', function(req, res) {
+            
+    		ShoppingCart.find(function(err, items) {
+
+                if (err)
+                    res.send(err);
+
+                res.sendfile('./public/views/tdd.html');
+            });
+    		
+        });
+
     	app.get('*', function(req, res) {
             
     		ShoppingCart.find(function(err, items) {
